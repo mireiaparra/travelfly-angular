@@ -1,0 +1,26 @@
+$mainColor: rgb(132, 132, 239);
+
+.header{
+    background-color: $mainColor;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        font-size: 2.2rem;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        &--container{
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__icon{
+        width: 40px;
+    }
+    &__menu{
+        width: 30px;
+        height: 30px;
+        color: white;
+    }
+}
